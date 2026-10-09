@@ -1,18 +1,17 @@
-# Maximpri Tap
+# maximpri/tap
 
-## How do I install these formulae?
+Homebrew formulae for [mlxtop](https://github.com/maximpri/mlxtop), a `top` for
+your local LLM on Mac and Linux.
 
-`brew install maximpri/tap/<formula>`
+```sh
+brew install maximpri/tap/mlxtop
+```
 
-Or `brew tap maximpri/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
+Or `brew tap maximpri/tap` and then `brew install mlxtop`. In a `Brewfile`:
 
 ```ruby
 tap "maximpri/tap"
-brew "<formula>"
+brew "mlxtop"
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+See `brew help`, `man brew` or [Homebrew's documentation](https://docs.brew.sh).
