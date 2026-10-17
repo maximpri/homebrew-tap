@@ -7,9 +7,9 @@ class Mlxtop < Formula
   head "https://github.com/maximpri/mlxtop.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/maximpri/homebrew-tap/releases/download/mlxtop-2.1.1"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "97c4eb8507a83e1cd08f310bf1fa5f767dbdeab6797e19cd5905cb13de951668"
-    sha256 cellar: :any,                 x86_64_linux: "842819c4b66c48135d7e6242153c557fe57e9599a469d358e76689e26b16d36d"
+    root_url "https://github.com/maximpri/homebrew-tap/releases/download/mlxtop-3.0.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "ad0e8bc648463a2757e51022d86c785faac0c86e030c4aaf0dfa4f4ec611fce8"
+    sha256 cellar: :any,                 x86_64_linux: "9bc5c6b981518e720f7f80b6fd1da1464951fb1aadf47b4a9e6a9493a33827ac"
   end
 
   depends_on "rust" => :build
