@@ -1,8 +1,8 @@
 class Mlxtop < Formula
   desc "Top-style monitor for local LLM servers: memory, paging and throughput"
   homepage "https://github.com/maximpri/mlxtop"
-  url "https://github.com/maximpri/mlxtop/archive/refs/tags/v3.1.0.tar.gz"
-  sha256 "c2eb22810374fe130b37423a19a7f3a69445c922086acb626a14d22c44097aa5"
+  url "https://github.com/maximpri/mlxtop/archive/refs/tags/v3.1.1.tar.gz"
+  sha256 "fe0d7fb090aef42fd40311dba4fb82e69ba9e2f371f3ec1d08d66ca0d31a3a4a"
   license "MIT"
   head "https://github.com/maximpri/mlxtop.git", branch: "main"
 
