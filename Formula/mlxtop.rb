@@ -6,6 +6,12 @@ class Mlxtop < Formula
   license "MIT"
   head "https://github.com/maximpri/mlxtop.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/maximpri/homebrew-tap/releases/download/mlxtop-3.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "2727341631ef9ee21b672c96b737ff3f3e1ec6f544cc53c2b4b1538c37262026"
+    sha256 cellar: :any,                 x86_64_linux: "571bb701c952b4b3a4589014046d9c53f0e2dc70203f798d9f8b07ab5ee76742"
+  end
+
   depends_on "rust" => :build
 
   def install
